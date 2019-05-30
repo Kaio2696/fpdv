@@ -1,0 +1,60 @@
+.scrl-form {
+  max-height: 0;
+  overflow-y: auto;
+  opacity: 0;
+  -webkit-transition: all .9s;
+  transition: all .9s;
+}
+
+.scrl-form.active {
+  -webkit-transition: all .9s;
+  transition: all .9s;
+  max-height: 500px;
+  opacity: 1;
+}
+
+.scrl-camp {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.scrl-rbd,
+.scrl-chk {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.btn-copy,
+.btn-html {
+  position: absolute;
+  left: 90px;
+  background-color: #3963b2;
+  color: #fff;
+  font-family: 'OpenSans';
+  font-size: 14px;
+  border-radius: 0 4px 4px 0;
+  padding: 5px 10px;
+  border: 1px solid #3963b2;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.btn-html.active,
+.btn-copy.active {
+  border-top: none;
+  border-radius: 0;
+}
+
+a.btn-copy:focus,
+a.btn-copy:active,
+a.btn-copy:hover { color: #ffffff; }
+
+.btn-html {
+  border-radius: 4px 0 0 4px;
+  text-align: center;
+  background: #ffffff;
+  color: #5d5d5d;
+  min-width: 91px;
+  border: 1px solid #5d5d5d;
+  left: 0;
+}

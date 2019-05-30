@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+
+	<link type="text/css" rel="stylesheet" href="bootstrap/bradseg_styles.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/inputStyle.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/stylesMod.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/bradesco.css" />
+
+
+	<h:outputScript library="js" name="jquery-3.3.1.min.js" />
+	<h:outputScript library="js" name="bradseg_scripts.min.js" />
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bradseg_scripts.min.js"></script>
+	
+	<title>Buscar perfil</title>
+</h:head>
+
+<h:body>
+
+	<div id="guia-construcao" class="content col-12 col-lg-12">
+		<div class="container">
+			<h2 class="title-subsection font-red">Portal de Negócios do
+				Parceiro</h2>
+
+			<div class="row container">
+				<h3 class="subtitle-section font-red">Buscar Perfil</h3>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-lg-4 col-left pad-left box-ident-inputs">
+					<div class="form-group mask-options">
+						<h:outputLabel value="Perfil" />
+						<h:selectOneMenu class="full-width habilitado" type="text"
+							name="habilitado">
+							<f:selectItem itemValue="1" itemLabel="Perfil 1" />
+							<f:selectItem itemValue="1" itemLabel="Perfil 2" />
+							<f:selectItem itemValue="1" itemLabel="Perfil 3" />
+							<f:selectItem itemValue="1" itemLabel="Perfil 4" />
+							<f:selectItem itemValue="1" itemLabel="Perfil 5" />
+							<f:selectItem itemValue="1" itemLabel="Perfil 6" />
+
+						</h:selectOneMenu>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row col-top-buffer">
+				<div class="col-xs-12">
+					<h:commandButton class="bradseg-btn red" value="Buscar" />
+					<h:commandButton class="bradseg-btn red" value="Voltar" />
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</h:body>
+</html>

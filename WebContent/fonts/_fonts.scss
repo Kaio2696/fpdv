@@ -1,0 +1,41 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("\#{resource['fonts:open-sans-v16-latin-regular.eot']}"); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url("\#{resource['fonts:open-sans-v16-latin-regular.eot?#iefix']}") format('embedded-opentype'), /* IE6-IE8 */
+       url("\#{resource['fonts:open-sans-v16-latin-regular.woff2']}") format('woff2'), /* Super Modern Browsers */
+       url("\#{resource['fonts:open-sans-v16-latin-regular.woff']}") format('woff'), /* Modern Browsers */
+       url("\#{resource['fonts:open-sans-v16-latin-regular.ttf']}") format('truetype'), /* Safari, Android, iOS */
+       url("\#{resource['fonts:open-sans-v16-latin-regular.svg#OpenSans']}") format('svg'); /* Legacy iOS */
+}
+/*open-sans-600 - latin*/
+@font-face {
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+
+
+  src: url("\#{resource['fonts:open-sans-v16-latin-600.eot']}"); /* IE9 Compat Modes */
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+       url("\#{resource['fonts:open-sans-v16-latin-600.eot?#iefix']}") format('embedded-opentype'), /* IE6-IE8 */
+       url("\#{resource['fonts:open-sans-v16-latin-600.woff2']}") format('woff2'), /* Super Modern Browsers */
+       url("\#{resource['fonts:open-sans-v16-latin-600.woff']}") format('woff'), /* Modern Browsers */
+       url("\#{resource['fonts:open-sans-v16-latin-600.ttf']}") format('truetype'), /* Safari, Android, iOS */
+       url("\#{resource['fonts:open-sans-v16-latin-600.svg#OpenSans']}") format('svg'); /* Legacy iOS */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  src: url("\#{resource['fonts:open-sans-v16-latin-800.eot']}"); /* IE9 Compat Modes */
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
+       url("\#{resource['fonts:open-sans-v16-latin-800.eot?#iefix']}") format('embedded-opentype'), /* IE6-IE8 */
+       url("\#{resource['fonts:open-sans-v16-latin-800.woff2']}") format('woff2'), /* Super Modern Browsers */
+       url("\#{resource['fonts:open-sans-v16-latin-800.woff']}") format('woff'), /* Modern Browsers */
+       url("\#{resource['fonts:open-sans-v16-latin-800.ttf']}") format('truetype'), /* Safari, Android, iOS */
+       url("\#{resource['fonts:open-sans-v16-latin-800.svg#OpenSans']}") format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,427 @@
+.box-content {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.box-hexa { width: 320px; }
+
+.box-hexa p { line-height: 1; }
+
+.img-box-hexa {
+  max-width: 13%;
+}
+
+.vertical-divisor-right._menu-principal {
+  top: 50px;
+  height: 560px;
+}
+
+.vertical-divisor-right._menu-ancora {
+  top: 70px;
+  height: 800px;
+}
+
+.vertical-divisor-right._abas {
+  top: 125px;
+  height: 570px;
+}
+
+.btn-html { right: 90px; }
+.btn-copy { right: 0; }
+
+.btn-html,
+.btn-copy { left: auto; }
+
+.marca-navegacao._mask1 {
+  position: absolute;
+  top: 320px;
+  right: -750px;
+}
+
+.marca-navegacao._mask2 {
+  position: absolute;
+  top: 760px;
+  right: -750px;
+}
+
+.img-paginacao {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.img-menu-desktop { display: block; }
+.img-menu-mobile { display: none; }
+
+.subtitle-section._cinza { margin-top: 140px; }
+
+/* EXEMPLOS BRADESCO SEGUROS */
+.exemplo-principal {
+  width: 100%;
+  min-width: 700px;
+  height: 70px;
+  background: #f4f4f6;
+  background: -moz-linear-gradient(top,#f4f4f6 0%,#e8e9ec 100%);
+  background: -webkit-linear-gradient(top,#f4f4f6 0%,#e8e9ec 100%);
+  background: linear-gradient(to bottom,#f4f4f6 0%,#e8e9ec 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f6',endColorstr='#e8e9ec',GradientType=0);
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: 0 0 7px 0 rgba(0,0,0,.3);
+  box-shadow: 0 0 7px 0 rgba(0,0,0,.3);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-principal {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  border-right: 1px solid #d2d4da;
+}
+
+.campo-input {
+  background: #fff;
+  height: 70px;
+  width: 200px;
+  border-right: 1px solid #d2d4da;
+  display: flex;
+  justify-content: flex-start;
+  align-itens: center;
+  padding: 20px;
+  color: #a5aab6;
+}
+
+.campo-input>i {
+  font-size: 26px;
+}
+
+.campo-input>p {
+  padding-left: 15px;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.campo-opcoes, .mais-opcoes {
+  height: 70px;
+  border-right: 1px solid #d2d4da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.campo-opcoes {
+  width: 250px;
+}
+
+.mais-opcoes {
+  width: 250px;
+}
+
+.campo-opcoes p, .mais-opcoes p, .campo-de-logar p {
+  font-size: 13px;
+}
+
+.campo-opcoes i, .mais-opcoes i {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.campo-de-logar {
+  height: 70px;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0b67bd;
+}
+
+.campo-de-logar i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+
+.exemplo-institucional {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.exemplo-institucional.fundo-azul {
+  background: rgb(9, 103, 189);
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+
+.exemplo-institucional.fundo-cinza {
+  background: #f4f4f6;
+}
+
+.exemplo-institucional-lista {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.seta-pequena {
+  font-size: 10px;
+}
+
+.margin-itens {
+  margin-left: 20px;
+}
+
+.icone-exemplo {
+  font-size: 18px;
+}
+
+.margin-icone {
+  margin-left: 30px;
+}
+
+.margin-icone-individual {
+  margin-left: 10px;
+}
+
+.institucional-lista {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.institucional-lista:hover {
+  cursor: pointer;
+}
+
+.exemplo-ancora {
+  width: 100%;
+  height: 69px;
+  background-color: #FFF;
+  z-index: 2;
+  border-top: 3px solid #cc092f;
+  box-shadow: 0 0 5px 0 rgba(77,78,83,.3);
+  border-bottom: 1px solid #e8e9ec;
+}
+
+.exemplo-abas {
+  width: 100%;
+  height: 130px;
+  position: relative;
+}
+
+.exemplo-abas-conteudo {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  padding-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #d2d4da;
+  z-index: 1;
+  font-size: 13px;
+}
+
+.exemplo-abas-titulo {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.aba-esquerda {
+  width: 100px;
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #d2d4da;
+  border-left: 1px solid #d2d4da;
+  border-right: 1px solid #d2d4da;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  z-index: 2;
+  background: #fff;
+  color: #0b67bd;
+  font-weight: bold;
+}
+
+.aba-direita {
+  width: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #d2d4da;
+  border-top: 1px solid #d2d4da;
+  position: absolute;
+  left: 100px;
+  top: 4px;
+  height: 46px;
+  background: #f4f4f6;
+}
+
+
+.lista-ancora {
+  list-style: none;
+  padding: 0;
+  height: auto;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.lista-ancora .ancora-item {
+  display: block;
+  height: 66px;
+  background: #fff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.lista-ancora .ancora-item a{
+  color: #a5aab6;
+}
+
+.lista-ancora .ancora-item a:hover{
+  color: #4b4d52;
+  text-decoration: underline;
+}
+
+.lista-ancora .ancora-item.active {
+  border-right: 1px solid #e8e9ec;
+}
+
+.lista-ancora .ancora-item.active a{
+  color: #4d4e53;
+  font-weight: bold;
+}
+
+.lista-ancora .ancora-item.esconde-item-lg {
+  display: none;
+}
+
+.campo-cadeado {
+  display: none;
+}
+
+/* EXEMPLOS BRADESCO SEGUROS */
+
+@media (max-width: 768px) {
+  .img-menu-desktop { display: none; }
+  .img-menu-mobile { display: block; }
+
+  /* EXEMPLOS BRADESCOS SEGUROS */
+
+  .lista-ancora .ancora-item {
+    border-right: 1px solid #e8e9ec;
+  }
+
+  .lista-ancora .ancora-item.esconde-item-sm {
+    display: none;
+  }
+
+  .lista-ancora .ancora-item.esconde-item-lg {
+    display: block;
+    height: 66px;
+    background: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .lista-ancora .ancora-item .mg-icon {
+    margin-left: 3px;
+    font-size: 12px;
+  }
+
+  .lista-ancora .ancora-item a:hover{
+    color: #4b4d52;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .exemplo-principal {
+    min-width: 100%;
+    display: block;
+  }
+
+  .campo-input, .campo-opcoes, .mais-opcoes, .campo-de-logar {
+    display: none;
+  }
+
+  .logo-principal {
+    border-right: 0;
+    float: left;
+    padding-left: 0;
+  }
+
+  .campo-cadeado {
+    float: right;
+    color: #0b67bd;
+    display: block;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-right: 12px;
+  }
+
+  .menu-mobile {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+  }
+
+  .linha1, .linha2, .linha3 {
+    display: block;
+    width: 26px;
+    height: 2px;
+    border-radius: 1px;
+    background: #0b67bd;
+  }
+
+  .linha2 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  /* EXEMPLOS BRADESCO SEGUROS*/
+}
+
+@media (max-width: 992px) {
+  .vertical-divisor-right { display: none; }
+
+  .description-section.mg-top-55 { margin-bottom: 100px; }
+
+  .img-sides-responsive.mg-bottom-100 { margin-bottom: 40px; }
+
+  .col-12.col-lg-6.pad-right-80.pad-top-170.pad-bottom-100 { padding-top: 50px; }
+
+  .col-12.col-lg-6.pad-left-80.pad-top-140 { padding-top: 50px; }
+
+  .row.mg-bottom-100 { margin-bottom: 0; }
+
+  .col-12.col-lg-6.pad-left-80.pad-top-125 { padding-top: 100px; }
+}

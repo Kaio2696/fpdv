@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+/********** FONTES BRADESCO **********/
+
+/** Montserrat **/
+@font-face {
+  font-family: 'Monstserrat Thin';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/montserrat/Montserrat-Thin.ttf"),
+    url("../fonts/montserrat/Montserrat-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Monstserrat Medium';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/montserrat/Montserrat-Medium.ttf"),
+    url("../fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Monstserrat';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf"),
+    url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Monstserrat Bold';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf"),
+    url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+/** NewJune **/
+@font-face {
+  font-family: 'NewJune Light';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/new-june/new-june-light.otf");
+  src: url("../fonts/new-june/NewJuneLight.woff2") format("woff2"),
+  url("../fonts/new-june/NewJuneLight.woff") format("woff"),
+  url("../fonts/new-june/NewJuneLight.ttf") format("truetype"),
+  url("../fonts/new-june/NewJuneLight.svg#NewJuneLight") format("svg"),
+  url("../fonts/new-june/NewJuneLight.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'NewJune Thin';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/new-june/new-june-thin.otf");
+  src: url("../fonts/new-june/NewJuneThin.woff2") format("woff2"),
+  url("../fonts/new-june/NewJuneThin.woff") format("woff"),
+  url("../fonts/new-june/NewJuneThin.ttf") format("truetype"),
+  url("../fonts/new-june/NewJuneThin.svg#NewJuneThin") format("svg"),
+  url("../fonts/new-june/NewJuneThin.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'NewJune Book';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/new-june/NewJune-Book.otf");
+  src: url("../fonts/new-june/NewJune-Book.woff2") format("woff2"),
+  url("../fonts/new-june/NewJune-Book.woff") format("woff"),
+  url("../fonts/new-june/NewJune-Book.ttf") format("truetype"),
+  url("../fonts/new-june/NewJune-Book.svg#NewJune-Book") format("svg"),
+  url("../fonts/new-june/NewJune-Book.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'NewJune Medium';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/new-june/NewJune-Medium.otf");
+  src: url("../fonts/new-june/NewJuneMedium.woff2") format("woff2"),
+  url("../fonts/new-june/NewJuneMedium.woff") format("woff"),
+  url("../fonts/new-june/NewJuneMedium.ttf") format("truetype"),
+  url("../fonts/new-june/NewJuneMedium.svg#NewJuneMedium") format("svg"),
+  url("../fonts/new-june/NewJuneMedium.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'NewJune';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/new-june/NewJune-Regular.otf");
+  src: url("../fonts/new-june/NewJune-Regular.woff2") format("woff2"),
+  url("../fonts/new-june/NewJune-Regular.woff") format("woff"),
+  url("../fonts/new-june/NewJune-Regular.ttf") format("truetype"),
+  url("../fonts/new-june/NewJune-Regular.svg#NewJune-Regular") format("svg"),
+  url("../fonts/new-june/NewJune-Regular.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'NewJune Bold';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/new-june/NewJune-Bold.otf");
+  src: url("../fonts/new-june/NewJune-Bold.woff2") format("woff2"),
+  url("../fonts/new-june/NewJune-Bold.woff") format("woff"),
+  url("../fonts/new-june/NewJune-Bold.ttf") format("truetype"),
+  url("../fonts/new-june/NewJune-Bold.svg#NewJune-Bold") format("svg"),
+  url("../fonts/new-june/NewJune-Bold.eot?#iefix") format("embedded-opentype");
+}
+
+/** OpenSans **/
+@font-face {
+  font-family: 'OpenSans Light';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/open-sans/OpenSans-Light.otf");
+  src: url("../fonts/open-sans/OpenSans-Light.woff2") format("woff2"),
+  url("../fonts/open-sans/OpenSans-Light.woff") format("woff"),
+  url("../fonts/open-sans/OpenSans-Light.ttf") format("truetype"),
+  url("../fonts/open-sans/OpenSans-Light.svg#OpenSans-Light") format("svg"),
+  url("../fonts/open-sans/OpenSans-Light.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'OpenSans Light';
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/open-sans/OpenSansLight-Italic.otf");
+  src: url("../fonts/open-sans/OpenSans-LightItalic.woff2") format("woff2"),
+  url("../fonts/open-sans/OpenSansLight-Italic.woff") format("woff"),
+  url("../fonts/open-sans/OpenSansLight-Italic.ttf") format("truetype"),
+  url("../fonts/open-sans/OpenSansLight-Italic.svg#OpenSansLight-Italic") format("svg"),
+  url("../fonts/open-sans/OpenSans-LightItalic.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/open-sans/OpenSans.otf");
+  src: url("../fonts/open-sans/OpenSans.woff2") format("woff2"),
+  url("../fonts/open-sans/OpenSans.woff") format("woff"),
+  url("../fonts/open-sans/OpenSans.ttf") format("truetype"),
+  url("../fonts/open-sans/OpenSans.svg#OpenSans") format("svg"),
+  url("../fonts/open-sans/OpenSans.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/open-sans/OpenSans-Italic.otf");
+  src: url("../fonts/open-sans/OpenSans-Italic.woff2") format("woff2"),
+  url("../fonts/open-sans/OpenSans-Italic.woff") format("woff"),
+  url("../fonts/open-sans/OpenSans-Italic.ttf") format("truetype"),
+  url("../fonts/open-sans/OpenSans-Italic.svg#OpenSans-Italic") format("svg"),
+  url("../fonts/open-sans/OpenSans-Italic.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'OpenSans Semibold';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/open-sans/OpenSans-Semibold.otf");
+  src: url("../fonts/open-sans/OpenSans-Semibold.woff2") format("woff2"),
+  url("../fonts/open-sans/OpenSans-Semibold.woff") format("woff"),
+  url("../fonts/open-sans/OpenSans-Semibold.ttf") format("truetype"),
+  url("../fonts/open-sans/OpenSans-Semibold.svg#OpenSans-Semibold") format("svg"),
+  url("../fonts/open-sans/OpenSans-Semibold.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'OpenSans Semibold';
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/open-sans/OpenSans-SemiboldItalic.otf");
+  src: url("../fonts/open-sans/OpenSans-SemiboldItalic.woff2") format("woff2"),
+  url("../fonts/open-sans/OpenSans-SemiboldItalic.woff") format("woff"),
+  url("../fonts/open-sans/OpenSans-SemiboldItalic.ttf") format("truetype"),
+  url("../fonts/open-sans/OpenSans-SemiboldItalic.svg#OpenSans-SemiboldItalic") format("svg"),
+  url("../fonts/open-sans/OpenSans-SemiboldItalic.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'OpenSans Bold';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/open-sans/OpenSans-Bold.otf");
+  src: url("../fonts/open-sans/OpenSans-Bold.woff2") format("woff2"),
+  url("../fonts/open-sans/OpenSans-Bold.woff") format("woff"),
+  url("../fonts/open-sans/OpenSans-Bold.ttf") format("truetype"),
+  url("../fonts/open-sans/OpenSans-Bold.svg#OpenSans-Bold") format("svg"),
+  url("../fonts/open-sans/OpenSans-Bold.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'OpenSans Bold';
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/open-sans/OpenSans-BoldItalic.otf");
+  src: url("../fonts/open-sans/OpenSans-BoldItalic.woff2") format("woff2"),
+  url("../fonts/open-sans/OpenSans-BoldItalic.woff") format("woff"),
+  url("../fonts/open-sans/OpenSans-BoldItalic.ttf") format("truetype"),
+  url("../fonts/open-sans/OpenSans-BoldItalic.svg#OpenSans-BoldItalic") format("svg"),
+  url("../fonts/open-sans/OpenSans-BoldItalic.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'OpenSans Extrabold';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/open-sans/OpenSans-Extrabold.otf");
+  src: url("../fonts/open-sans/OpenSans-Extrabold.woff2") format("woff2"),
+  url("../fonts/open-sans/OpenSans-Extrabold.woff") format("woff"),
+  url("../fonts/open-sans/OpenSans-Extrabold.ttf") format("truetype"),
+  url("../fonts/open-sans/OpenSans-Extrabold.svg#OpenSans-Extrabold") format("svg"),
+  url("../fonts/open-sans/OpenSans-Extrabold.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'OpenSans Extrabold';
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/open-sans/OpenSans-ExtraboldItalic.otf");
+  src: url("../fonts/open-sans/OpenSans-ExtraboldItalic.woff2") format("woff2"),
+  url("../fonts/open-sans/OpenSans-ExtraboldItalic.woff") format("woff"),
+  url("../fonts/open-sans/OpenSans-ExtraboldItalic.ttf") format("truetype"),
+  url("../fonts/open-sans/OpenSans-ExtraboldItalic.svg#OpenSans-ExtraboldItalic") format("svg"),
+  url("../fonts/open-sans/OpenSans-ExtraboldItalic.eot?#iefix") format("embedded-opentype");
+}
+
+/* Icon Bradesco */
+@font-face {
+  font-family: 'Icon';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/icons/bradesco_icon.ttf");
+  src: url("../fonts/icons/bradesco_icon.woff2") format("woff2"),
+  url("../fonts/icons/bradesco_icon.woff") format("woff"),
+  url("../fonts/icons/bradesco_icon.ttf") format("truetype"),
+  url("../fonts/icons/bradesco_icon.svg#bradesco_icon") format("svg"),
+  url("../fonts/icons/bradesco_icon.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: 'bradesco';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/icons/bradesco.ttf");
+  src: url("../fonts/icons/bradesco.woff2") format("woff2"),
+  url("../fonts/icons/bradesco.woff") format("woff"),
+  url("../fonts/icons/bradesco.ttf") format("truetype"),
+  url("../fonts/icons/bradesco.svg#bradesco") format("svg"),
+  url("../fonts/icons/bradesco.eot?#iefix") format("embedded-opentype");
+}

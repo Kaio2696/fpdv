@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<link type="text/css" rel="stylesheet" href="bootstrap/bradseg_styles.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/stylesMod.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/bradesco.css" />
+
+
+	<h:outputScript library="js" name="jquery-3.3.1.min.js" />
+	<h:outputScript library="js" name="bradseg_scripts.min.js" />
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bradseg_scripts.min.js"></script>
+	
+	<title>Excluir Produto</title>
+</h:head>
+
+<h:body>
+
+		<div id="guia-construcao" class="content col-12 ">
+			<div class="container">
+				<h2 class="title-subsection font-red">Portal de Negócios do
+					Parceiro</h2>
+				<div class="row container">
+					<h3 class="subtitle-section font-red">Excluir Produto</h3>
+				</div>
+
+				<div class="row">
+					<div class="col-12 col-lg-4 col-left pad-left box-ident-inputs">
+						<div class="form-group">
+							<h:outputLabel value="Produto*" />
+							<input placeholder="Nome do Produto" class="full-width"
+								type="text" name="example" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-4 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Descrição do produto*" />
+							<input placeholder="Descrição do produto"
+								class="full-width habilitado" type="text" name="habilidade" />
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col12 col-lg-4 col-left pad-left box-ident-inputs">
+						<div class="form-group">
+							<h:outputLabel value="Indicador*" />
+							<h:selectOneMenu class="full-width habilitado" type="text"
+								name="habilitado">
+								<f:selectItem itemValue="A" itemLabel="Ativo" />
+								<f:selectItem itemValue="I" itemLabel="Inativo" />
+							</h:selectOneMenu>
+						</div>
+					</div>
+
+					<!--Datas de exemplo-->
+					<div class="col-12 col-lg-4 col-left pad-left box-ident-inputs">
+						<div class="form-group">
+							<h:outputLabel value="Data de disponibilidade*" />
+							<h:selectOneMenu placeholder="dd/MM/aaaa"
+								class="full-width habilitado" type="text" name="habilitado">
+								<f:selectItem itemValue="Selecione uma data"
+									itemLabel="Selecione uma data" />
+								<f:selectItem itemValue="30/04/2019"
+									itemLabel="Selecione uma data" />
+								<f:selectItem itemValue="02/05/2019"
+									itemLabel="Selecione uma data" />
+							</h:selectOneMenu>
+						</div>
+					</div>
+				</div>
+
+				<div class="row col-top-buffer">
+					<div class="col-xs-12">
+						<div class="form-group">
+							<h:outputLabel value="Deseja confirmar a exclusão do parceiro?" />
+							<br />
+							<h:commandButton class="bradseg-btn red" value="Sim" />
+							<h:commandButton class="bradseg-btn red" value="Não" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</h:body>
+</html>

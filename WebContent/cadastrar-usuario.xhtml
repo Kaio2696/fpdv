@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+
+	<link type="text/css" rel="stylesheet"
+		href="bootstrap/bradseg_styles.min.css" />
+	<link type="text/css" rel="stylesheet"
+		href="bootstrap/stylesMod.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/bradesco.css" />
+
+
+	<h:outputScript library="js" name="jquery-3.3.1.min.js" />
+	<h:outputScript library="js" name="bradseg_scripts.min.js" />
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bradseg_scripts.min.js"></script>
+</h:head>
+
+<h:body>
+
+	<div id="guia-construcao" class="content col-6 col-lg-12">
+		<div class="container">
+			<h2 class="title-subsection-mod font-red">Portal de Negócios do
+				Parceiro</h2>
+			<div class="row container">
+				<h3 class="subtitle-section-mod font-red">Alterar Produto</h3>
+			</div>
+
+			<h:form>
+				<div class="row">
+					<div class="col-12 col-lg-2 col-left pad-left box-ident-inputs">
+						<div class="form-group bar">
+							<h:outputLabel value="Nome de Usuário" />
+							<input placeholder="Nome de usuário"
+								class="full-width habilitado" type="text" name="habilitado" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-2 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="CPF" />
+							<input placeholder="000.000.000-00" class="full-width"
+								type="text" name="habilitado" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-2 col-left pad-left box-ident-inputs">
+						<div class="form-group">
+							<h:outputLabel value="Perfil" />
+							<input placeholder="Supervisor" class="full-width habilitado"
+								type="text" name="habilidade" />
+						</div>
+					</div>
+
+
+					<div class="col-12 col-lg-4 col-left pad-left ">
+						<div class="form-group">
+							<div class="row">
+							<h:outputLabel value="Hierarquia" />
+							<h:selectBooleanCheckbox  >
+							 <f:selectItem itemLabel="testestestes"/>
+								</h:selectBooleanCheckbox>
+							<input placeholder="Nome do parceiro" type="text"
+							name="habilitado"/>
+								
+							</div>
+							<div>
+								<h:selectBooleanCheckbox value="cliente" />
+                    			<h:outputText escape="false" value="Cliente" />
+							</div>
+							<div>
+								<h:selectBooleanCheckbox value="Remember Me" id="chkRememberMe3" />
+							</div>
+							<div>
+								<h:selectBooleanCheckbox value="Remember Me" id="chkRememberMe4" />
+							</div>
+							<div>
+								<h:selectBooleanCheckbox name="Teste" value="Remember Me"
+									id="chkRememberMe5" />
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col-12 col-lg-2 col-left pad-left box-ident-inputs">
+						<div class="form-group bar">
+							<h:outputLabel value="Parceiro" />
+							<input placeholder="Nome do parceiro"
+								class="full-width habilitado" type="text" name="habilitado" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-2 col-left pad-left">
+						<div class="form-group">
+							<h:outputLabel value="Indicador" />
+							<h:selectOneMenu value="" class="full-width habilitado"
+								type="text" name="habilitado">
+								<f:selectItem itemValue="0" itemLabel="Ativo" />
+								<f:selectItem itemValue="1" itemLabel="Inativo" />
+							</h:selectOneMenu>
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-2 col-left pad-left"></div>
+
+					<div class="col-12 col-lg-2 col-left pad-left v-divider">
+						<div class="form-group">
+							<h:outputLabel value="Indicador" />
+							<h:selectOneMenu value="" class="full-width habilitado"
+								type="text" name="habilitado">
+								<f:selectItem itemValue="0" itemLabel="Ativo" />
+								<f:selectItem itemValue="1" itemLabel="Inativo" />
+							</h:selectOneMenu>
+						</div>
+					</div>
+
+				</div>
+
+
+
+				<div class="row">
+					<div class="col-12 col-lg-2 col-left pad-left box-ident-inputs">
+						<div class="form-group">
+							<h:outputLabel value="Data Início*" />
+							<h:selectOneMenu value="" class="full-width habilitado"
+								type="text" name="habilitado">
+								<f:selectItem itemValue="0" itemLabel="Selecione uma data" />
+								<f:selectItem itemValue="1" itemLabel="27/03/2019" />
+								<f:selectItem itemValue="2" itemLabel="28/03/2019" />
+							</h:selectOneMenu>
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-2 col-left pad-left box-ident-inputs">
+						<div class="form-group">
+							<h:outputLabel value="Data Fim*" />
+							<h:selectOneMenu value="" class="full-width" type="text"
+								name="habilitado">
+								<f:selectItem itemValue="0" itemLabel="Selecione uma data" />
+								<f:selectItem itemValue="1" itemLabel="27/03/2019" />
+								<f:selectItem itemValue="2" itemLabel="28/03/2019" />
+							</h:selectOneMenu>
+						</div>
+					</div>
+
+				</div>
+			</h:form>
+		</div>
+	</div>
+
+
+</h:body>
+</html>

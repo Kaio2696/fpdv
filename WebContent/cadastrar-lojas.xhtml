@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui" 
+	xmlns:b="http://bootsfaces.net/ui">
+
+
+<h:head>
+
+	<link type="text/css" rel="stylesheet"
+		href="bootstrap/bradseg_styles.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/inputStyle.css" />
+	<link type="text/css" rel="stylesheet"
+		href="bootstrap/stylesMod.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/bradesco.css" />
+
+
+	<h:outputScript library="js" name="jquery-3.3.1.min.js" />
+	<h:outputScript library="js" name="bradseg_scripts.min.js" />
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bradseg_scripts.min.js"></script>
+
+
+
+	<title>Cadastrar loja</title>
+</h:head>
+
+<h:body>
+
+	<div id="guia-construcao" class="content col-12 col-lg-12">
+		<div class="container">
+			<h2 class="title-subsection font-red">Portal de Negócios do
+				Parceiro</h2>
+
+			<div class="row container">
+				<h3 class="subtitle-section font-red">Cadastrar Loja</h3>
+			</div>
+			<h:form>
+			<div class="row">
+				<div class="col-12 col-lg-3 col-left pad-left box-ident-inputs">
+					<div class="form-group">
+						<h:outputLabel value="Nome*" />
+						<h:inputText placeholder="Loja 1" class="full-width" type="text"
+							name="example" value="#{controleLojaBean.nomeLoja}"/>
+					</div>
+
+				</div>
+
+				<div class="col-12 col-lg-3 col-left pad-left box-ident-inputs">
+					<div class="form-group">
+						<h:outputLabel value="Regional*" />
+						<h:selectOneMenu class="full-width" value="#{controleLojaBean.regional}">
+							<f:selectItems value="#{controleLojaBean.selectReg}" />
+						</h:selectOneMenu>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-3 col-left pad-left box-ident-inputs">
+					<div class="form-group">
+						<h:outputLabel value="Nome do parceiro*" />
+						<h:inputText placeholder="Nome do Parceiro" class="full-width"
+							type="text" name="example" value="#{controleLojaBean.parceiro}"/>
+					</div>
+
+				</div>
+
+				<div class="col-12 col-lg-3 col-left pad-left">
+					<div class="form-group">
+						<h:outputLabel value="Diretoria*" />
+						<h:selectOneMenu class="full-width" value="#{controleLojaBean.diretoria}">
+							<f:selectItems value="#{controleLojaBean.selectDir}"/>
+						</h:selectOneMenu>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-lg-6 col-left pad-left box-ident-inputs">
+					<div class="form-group mask-options">
+						<h:outputLabel value="Email*" />
+						<h:inputText placeholder="Parceiro@..." class="full-width habilitado"
+							type="text" name="habilidade" value="#{controleLojaBean.email}"/>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-3 col-left pad-left box-ident-inputs">
+					<div class="form-group mask-options">
+						<h:outputLabel value="Telefone*" />
+						<h:inputText placeholder="(99) 9999-9999" class="full-width habilitado"
+							type="text" name="habilidade" value="#{controleLojaBean.telefone}"/>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-3 col-left pad-left box-ident-inputs">
+					<div class="form-group mask-options">
+						<h:outputLabel value="Celular*" />
+						<h:inputText placeholder="(99) 99999-9999" class="full-width habilitado"
+							type="text" name="habilidade" value="#{controleLojaBean.celular}" />
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-lg-2 col-left pad-left box-ident-inputs">
+					<div class="form-group mask-options">
+						<h:outputLabel value="CEP*" />
+						<h:inputText placeholder="00000-000" class="full-width habilitado"
+							type="text" name="habilidade" value="#{controleLojaBean.cep}" onkeypress="$(this).mask-options" />
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-5 col-left pad-left box-ident-inputs">
+					<div class="form-group mask-options">
+						<h:outputLabel value="Endereço*" />
+						<h:inputText placeholder="Av. Exemplo" class="full-width habilitado"
+							type="text" name="habilidade" value="#{controleLojaBean.endereco}"/>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-3 col-left box-ident-inputs">
+					<div class="form-group mask-options">
+						<h:outputLabel value="Número*" />
+						<h:inputText placeholder="999" class="full-width habilitado" type="text"
+							name="habilitado" value="#{controleLojaBean.numero}"/>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-2 col-left pad-left">
+					<div class="form-group">
+						<h:outputLabel value="Indicador*" />
+						<h:selectOneMenu class="full-width" value="#{controleLojaBean.indicador}" >
+							<f:selectItems value="#{controleLojaBean.selectInd}"/>
+						</h:selectOneMenu>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-12 col-lg-4 col-left pad-left box-ident-inputs">
+					<div class="form-group mask-options">
+						<h:outputLabel value="Bairro*" />
+						<h:inputText placeholder="Nome do Bairro" class="full-width" type="text"
+							name="habilitado" value="#{controleLojaBean.bairro}"/>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-4 col-left pad-left box-ident-inputs">
+					<div class="form-group mask-options">
+						<h:outputLabel value="Cidade*" />
+						<h:inputText placeholder="Nome da Cidade" class="full-width" type="text"
+							name="habilitado" value="#{controleLojaBean.cidade}" />
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-4 col-left pad-left box-ident-inputs">
+					<div class="form-group mask-options">
+						<h:outputLabel value="Estado*" />
+						<h:selectOneMenu placeholder="Selecione um estado"
+							class="full-width" type="text" value="#{controleLojaBean.estado}">
+							<f:selectItem itemValue="SEL" itemLabel="Selecione um estado" />
+							<f:selectItem itemValue="Ac" itemLabel="AC" />
+							<f:selectItem itemValue="Al" itemLabel="AL" />
+							<f:selectItem itemValue="Am" itemLabel="AM" />
+							<f:selectItem itemValue="Ap" itemLabel="AP" />
+							<f:selectItem itemValue="Ba" itemLabel="BA" />
+							<f:selectItem itemValue="Ce" itemLabel="CE" />
+							<f:selectItem itemValue="Df" itemLabel="DF" />
+							<f:selectItem itemValue="Es" itemLabel="ES" />
+							<f:selectItem itemValue="Go" itemLabel="GO" />
+							<f:selectItem itemValue="Ma" itemLabel="MA" />
+							<f:selectItem itemValue="Ms" itemLabel="MS" />
+							<f:selectItem itemValue="Mt" itemLabel="MT" />
+							<f:selectItem itemValue="Mg" itemLabel="MG" />
+							<f:selectItem itemValue="Pa" itemLabel="PA" />
+							<f:selectItem itemValue="Pb" itemLabel="PB" />
+							<f:selectItem itemValue="Pe" itemLabel="PE" />
+							<f:selectItem itemValue="Pi" itemLabel="PI" />
+							<f:selectItem itemValue="Pr" itemLabel="PR" />
+							<f:selectItem itemValue="Rj" itemLabel="RJ" />
+							<f:selectItem itemValue="Rn" itemLabel="RN" />
+							<f:selectItem itemValue="Ro" itemLabel="RO" />
+							<f:selectItem itemValue="Rs" itemLabel="RS" />
+							<f:selectItem itemValue="Rr" itemLabel="RR" />
+							<f:selectItem itemValue="Sc" itemLabel="SC" />
+							<f:selectItem itemValue="Se" itemLabel="SE" />
+							<f:selectItem itemValue="Sp" itemLabel="SP" />
+							<f:selectItem itemValue="To" itemLabel="TO" />
+						</h:selectOneMenu>
+					</div>
+				</div>
+
+				<div class="col-top-buffer">
+					<div class="col-xs-12">
+						<div class="pull-right">
+						<h:form id="buttonForm">
+								<input type="button" class="bradseg-btn red"
+									 data-toggle="modal" data-target="#myModal" value="Cadastrar" />
+									<h:commandButton class="bradseg-btn red" value="Voltar"/>
+									</h:form>
+								 
+								 <h:form id="modalForm">
+								
+								<!-- Modal --> 
+								<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+									aria-labelledby="myModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered " role="dialog">
+										<div class="modal-content rounded-0">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Close"  aria-hidden="true" >
+													<span aria-hidden="true">&times;</span>
+												</button>
+												
+											</div>
+											<div class="modal-body">
+											<h2> Erro !!</h2>
+											<h3>Não foi possivel Cadastrar a loja</h3>										
+											</div>
+											<div class="modal-footer">
+												
+												<h:commandButton class="bradseg-btn red" value="Voltar" action="#{controleLojaBean.exibirDados}"/>
+													
+											</div>
+										</div>
+									</div>
+								</div>
+								</h:form>
+								
+						</div>
+					</div>
+				</div>
+			</div>
+			</h:form>
+			 
+
+
+		</div>
+	</div>
+
+</h:body>
+</html>

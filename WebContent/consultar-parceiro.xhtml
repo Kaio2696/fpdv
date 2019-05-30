@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+
+		<link type="text/css" rel="stylesheet"
+		href="bootstrap/bradseg_styles.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/inputStyle.css" />
+	<link type="text/css" rel="stylesheet"
+		href="bootstrap/stylesMod.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/bradesco.css" />
+
+	<h:outputScript library="js" name="jquery-3.3.1.min.js" />
+	<h:outputScript library="js" name="bradseg_scripts.min.js" />
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bradseg_scripts.min.js"></script>
+	
+	<title>Consultar Parceiro</title>
+</h:head>
+
+<h:body>
+	<div id="guia-construcao" class="content col-12 col-lg-12">
+		<div class="container">
+			<h2 class="title-subsection font-red">Portal de Negócios do
+				Parceiro</h2>
+
+			<div class="row container">
+				<h3 class="subtitle-section font-red">Consultar Parceiro</h3>
+			</div>
+
+				<div class="row">
+					<div class="col-12 col-lg-3 col-left pad-left box-ident-inputs">
+						<div class="form-group">
+							<h:outputLabel value="Nome do parceiro*"/>
+							<input placeholder="Nome do Parceiro" class="full-width" type="text"
+								name="example" />
+						</div>
+
+					</div>
+
+					<div class="col-12 col-lg-3 col-left pad-left box-ident-inputs">
+						<div class="form-group">
+							<h:outputLabel value="CNPJ*"/> 
+							<input placeholder="00.000.000/0000-00" class="full-width habilitado" type="text" name="habilidade" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-6 col-left pad-left">
+						<div class="form-group">
+							<h:outputLabel value="Segmento"/>
+							<h:selectOneMenu class="full-width">
+							<f:selectItem itemValue="1" itemLabel="Opção 1"/>
+							<f:selectItem itemValue="2" itemLabel="Opção 2"/>
+							<f:selectItem itemValue="3" itemLabel="Opção 3"/>
+							<f:selectItem itemValue="4" itemLabel="Opção 4"/>
+							<f:selectItem itemValue="5" itemLabel="Opção 5"/>
+							</h:selectOneMenu>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-12 col-lg-6 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Email*"/>
+							<input placeholder="Parceiro@..." class="full-width habilitado" type="text" name="habilidade" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-3 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Telefone*"/>
+							<input placeholder="99 9999-9999" class="full-width habilitado" type="text" name="habilidade" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-3 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Celular*"/> 
+							<input placeholder="(11) 99999-9999" class="full-width habilitado" type="text" name="habilidade" />
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-12 col-lg-2 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="CEP*"/>
+							<input placeholder="00000-000" class="full-width habilitado" type="text" name="habilidade"
+								onkeypress="$(this).mask-options" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-5 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Endereço*"/>
+							<input placeholder="Av. Exemplo" class="full-width habilitado" type="text" name="habilidade" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-3 col-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Número"/>
+							<input placeholder="999"
+								class="full-width habilitado" type="text" name="habilitado" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-2 col-left pad-left">
+						<div class="form-group">
+							<h:outputLabel value="Indicador*"/> 
+							<h:selectOneMenu class="full-width">
+								<f:selectItem itemValue="A" itemLabel="Ativo"/>
+								<f:selectItem itemValue="I" itemLabel="Inativo"/>
+							</h:selectOneMenu>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="row">
+
+					<div class="col-12 col-lg-4 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Bairro*"/>
+							<input placeholder="Nome do Bairro" class="full-width" type="text" name="habilitado" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-4 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Cidade*"/>
+							<input placeholder="Nome da Cidade" class="full-width" type="text" name="habilitado" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-4 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Estado*"/>
+							<h:selectOneMenu placeholder="Selecione um estado" class="full-width" type="text">
+								<f:selectItem itemValue="SEL" itemLabel="Selecione um estado"/>
+								<f:selectItem itemValue="Ac" itemLabel="AC"/>
+								<f:selectItem itemValue="Al" itemLabel="AL"/>
+								<f:selectItem itemValue="Am" itemLabel="AM"/>
+								<f:selectItem itemValue="Ap" itemLabel="AP"/>
+								<f:selectItem itemValue="Ba" itemLabel="BA"/>
+								<f:selectItem itemValue="Ce" itemLabel="CE"/>
+								<f:selectItem itemValue="Df" itemLabel="DF"/>
+								<f:selectItem itemValue="Es" itemLabel="ES"/>
+								<f:selectItem itemValue="Go" itemLabel="GO"/>
+								<f:selectItem itemValue="Ma" itemLabel="MA"/>
+								<f:selectItem itemValue="Ms" itemLabel="MS"/>
+								<f:selectItem itemValue="Mt" itemLabel="MT"/>
+								<f:selectItem itemValue="Mg" itemLabel="MG"/>
+								<f:selectItem itemValue="Pa" itemLabel="PA"/>
+								<f:selectItem itemValue="Pb" itemLabel="PB"/>
+								<f:selectItem itemValue="Pe" itemLabel="PE"/>
+								<f:selectItem itemValue="Pi" itemLabel="PI"/>
+								<f:selectItem itemValue="Pr" itemLabel="PR"/>
+								<f:selectItem itemValue="Rj" itemLabel="RJ"/>
+								<f:selectItem itemValue="Rn" itemLabel="RN"/>
+								<f:selectItem itemValue="Ro" itemLabel="RO"/>
+								<f:selectItem itemValue="Rs" itemLabel="RS"/>
+								<f:selectItem itemValue="Rr" itemLabel="RR"/>
+								<f:selectItem itemValue="Sc" itemLabel="SC"/>
+								<f:selectItem itemValue="Se" itemLabel="SE"/>
+								<f:selectItem itemValue="Sp" itemLabel="SP"/>
+								<f:selectItem itemValue="To" itemLabel="TO"/>
+							</h:selectOneMenu>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col-12 col-lg-5 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Nome do usuario*"/> 
+							<input placeholder="Nome" class="full-width" type="text" name="habilitado" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-2 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="CPF*"/>
+							<input placeholder="000.000.000-00" class="full-width" type="text" name="habilitado" />
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-3 col-left pad-left box-ident-inputs">
+						<div class="form-group mask-options">
+							<h:outputLabel value="Perfil*"/>
+							<input placeholder="Administrador Parceiro" class="full-width"
+								type="text" name="habilitado" />
+						</div>
+					</div>
+					
+		
+				</div>
+			
+			
+			<div class="row col-top-buffer">
+				<div class="col-xs-12">
+					<div class="pull-left">
+						<h:commandButton class="bradseg-btn red" value="Voltar" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</h:body>
+</html>

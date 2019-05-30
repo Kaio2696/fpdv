@@ -1,0 +1,65 @@
+/********* RESET *********/
+html, body {
+  margin: 0 auto;
+  /*font-family: OpenSans Light;*/
+  font-family: 'Open Sans', sans serif;
+  height: 100vh;
+  color: #4b4d52;
+  background-color: #f4f4f6;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0;
+}
+
+button { outline: none; }
+
+.transparent { opacity: 0; }
+
+.overflow-none { overflow: hidden; }
+
+.hidden-xs { display: none; }
+
+.box-content { width: calc(100% - 260px); overflow: hidden;}
+
+.content { padding: 50px 50px 0; }
+
+.full { width: 100%; }
+
+/**** FONTES ****/
+
+.newjune-light { font-family: 'Montserrat'; font-weight: 400 }
+
+.newjune-regular { font-family: 'Montserrat'; font-weight: 500}
+
+.newjune-medium { font-family: 'Montserrat'; font-weight: 600 }
+
+.newjune-bold { font-family: 'Montserrat'; font-weight: 700 }
+
+
+
+.montserrat-light { font-family: 'Montserrat'; font-weight: 400 }
+
+.montserrat-regular { font-family: 'Montserrat'; font-weight: 500}
+
+.montserrat-medium { font-family: 'Montserrat'; font-weight: 600 }
+
+.montserrat-bold { font-family: 'Montserrat'; font-weight: 700 }
+
+.opensans-light { font-family: 'OpenSans Light'; }
+
+.opensans-regular { font-family: OpenSans; }
+
+
+
+@media screen and (max-width: 500px){
+
+  .content { padding: 50px 20px 0; }
+
+}

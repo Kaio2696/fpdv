@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<link type="text/css" rel="stylesheet" href="bootstrap/bradseg_styles.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/inputStyle.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/stylesMod.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/bradesco.css" />
+
+
+
+	<h:outputScript library="js" name="jquery-3.3.1.min.js" />
+	<h:outputScript library="js" name="bradseg_scripts.min.js" />
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bradseg_scripts.min.js"></script>
+</h:head>
+
+<h:body>
+
+<div class="container col-12">
+            <div class="row nav-main-menu">
+                <ul>
+                    <h:button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu"
+                    aria-expanded="false">
+                        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    </h:button>
+
+                     <li class="brand">
+                        <a href="javascript:;">
+                            <img class="logo-bradseg hidden-sm" src="src/logo.svg" data-grayscale="src/logo.svg"
+                                data-highcontrast="src/logo.svg"/>
+                            <img class="logo-bradseg visible-sm" src="src/logo.svg" data-grayscale="src/logo.svg"
+                                data-highcontrast="src/logo.svg"/>
+                        </a>
+                    </li>
+                    
+                    <li id="nav-menu" class="dropdown-items navbar-collapse collapse">
+                        <ul>
+                            <li class="dropdown navbar-item">
+                                <a href="">Home</a>
+                            </li>
+
+                            <li class="dropdown navbar-item">
+                                <a href="javascript:;" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false"
+                                    class="dropdown-toggle">
+                                    Opções<span class="icon-seta-baixo-b"></span>
+                                </a>
+                                <ul role="menu" class="dropdown-menu" style="width: 548.2px;">
+                                    <li><a href="javascript:;" class="dropdown-item"><span class="icon-seta-direita-b"></span>Incluir</a></li>
+                                    <li><a href="javascript:;" class="dropdown-item"><span class="icon-seta-direita-b"></span>Excluir</a></li>
+                                    <li><a href="javascript:;" class="dropdown-item"><span class="icon-seta-direita-b"></span>Alterar</a></li>
+                                    <li><a href="javascript:;" class="dropdown-item"><span class="icon-seta-direita-b"></span>Consultar</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                        <li class="nav-login">
+                            <a href="javascript:;">
+                                <span class="icon-nav-login"></span>
+                                <span class="login-text">Login</span>
+                            </a>
+                        </li>
+                </ul>
+
+
+            </div>
+
+            <div class="bsbg"> 
+                    <h2 class="title-subsection-mod font-red">
+                        Portal de Negócios do Parceiro
+                    </h2>
+
+                    <div class="row container">
+                        <h3 class="subtitle-section font-red" align="">Administrador</h3>
+                    </div>
+
+                    <p class="font-OS-Regular font18px">
+                        O perfil administrador é um facilitador para o cadastro de perfis.<br/>
+                        Ele permite realizar a inclusão, alteração, exclusão e consulta dos perfis do sistema.
+                    </p>
+
+                <div class="ptop">    
+                    <div>
+                        
+                           <div class="row container-fluid elem-center">
+                                  
+                                    <div class="col-lg-12">
+
+                                        <div class="row">
+                                            <div class="col-md-4 col-lg-4 btn-position">
+                                                <button class="bradseg-btn red  btn-block" type="submit">Incluir</button>
+									<div class="col-lg-3"></div>
+								</div>
+
+                                            <div class="col-md-4 col-lg-4 btn-position">
+                                                <button class="bradseg-btn red  btn-block">Excluir</button>
+                                            </div>
+                                        </div>       
+
+                                    </div>
+                          </div>​
+
+                    </div>
+
+                    <div>
+                        <div class="col-lg-3"> </div>
+                           <div class="row container-fluid elem-center">
+    
+                                    <div class="col-lg-12">
+
+                                        <div class="row">
+                                            <div class="col-md-4 col-lg-4 btn-position">
+                                                <button class="bradseg-btn red  btn-block">Alterar</button>
+                                            </div>
+
+                                            <div class="col-md-4 col-lg-4 btn-position">
+                                                <button class="bradseg-btn red  btn-block">Consultar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>​
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</h:body>
+</html>
